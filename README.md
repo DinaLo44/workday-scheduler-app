@@ -10,4 +10,6 @@ When the page refreshes the last activities that were added are shown in the pag
 The application classifies with 3 different colors if the hour the user is at is in the past (grey), present (red), or future (green).
 
 Here is a screenshot of the final application:
-![workday-scheduler-screenshot](URL GitHub created)
+![workday-scheduler-screenshot](https://github.com/DinaLo44/workday-scheduler-app/blob/main/assets/images/workday-scheduler-screenshot.png)
+
+Here is the link of the deployed application:
