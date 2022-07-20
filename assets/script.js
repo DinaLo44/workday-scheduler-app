@@ -15,6 +15,7 @@ var present = moment().hours();
 var description = $('.description');
 var btn = $('.btn');
 
+//Function to save the tasks after refreshing the page
 function loadItemsFromStorage() {
 
     console.log('loadItemsFromStorage function ran successfully!');
@@ -28,9 +29,8 @@ function loadItemsFromStorage() {
             if (hour === eventsArray[i].eventHour) {
                 var eventDescrip = eventsArray[i].eventDescription
                 console.log(eventDescrip)
-            } else {
-                console.log("No saved events")
-            }
+                $(this).text(eventDescrip);
+            } 
         }
 
     })
